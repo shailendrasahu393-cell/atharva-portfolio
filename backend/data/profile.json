@@ -1,0 +1,104 @@
+{
+  "personal": {
+    "name": "Atharva Gupta",
+    "role": "Full-Stack Developer",
+    "headline": "Hey, I'm Atharva 👋",
+    "description": "Aspiring Full-Stack Developer specializing in React.js, JavaScript, Python, and Firebase.",
+    "avatar": "/assets/avatar.png",
+    "email": "gatharva264@gmail.com",
+    "phone": "9453036904",
+    "location": "India",
+    "watermark": "ATHARVA"
+  },
+  "name": "Atharva Gupta",
+  "role": "Full-Stack Developer",
+  "headline": "Hey, I'm Atharva 👋",
+  "about": {
+    "summary": "Aspiring Full-Stack Developer pursuing a Bachelor of Technology in Computer Science, with a strong interest in web development, problem-solving, and building practical software solutions. Seeking opportunities to apply technical skills in React.js, JavaScript, Python, Firebase, and database technologies while continuously learning and contributing effectively in a professional environment.",
+    "interests": ["Full-Stack Development", "Problem Solving", "Cloud & Backend", "Visual Content Creation", "Open Source"],
+    "direction": "Focusing on full-stack web applications, scalable APIs, and building impactful community and software solutions."
+  },
+  "education": [
+    {
+      "institution": "Allenhouse Institute of Technology",
+      "degree": "Bachelor of Technology in Computer Science",
+      "field": "Computer Science & Engineering",
+      "start_date": "2025",
+      "end_date": "2028",
+      "highlights": ["Currently Pursuing B.Tech in Computer Science"]
+    },
+    {
+      "institution": "J.N.P.N Inter College, UP Board",
+      "degree": "Class XII (PCM)",
+      "score": "70.2%",
+      "year": "2025"
+    },
+    {
+      "institution": "Shivaji Inter College, UP Board",
+      "degree": "Class X (Science)",
+      "score": "82%",
+      "year": "2023"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Projects & Development",
+      "role": "Full-Stack Developer",
+      "start_date": "2024",
+      "end_date": "Present",
+      "description": "Building production-grade web applications and platforms connecting communities with digital solutions."
+    }
+  ],
+  "projects": [
+    {
+      "id": "surplus-food-recovery",
+      "title": "Surplus Food Recovery Network",
+      "description": "A full-stack surplus food recovery platform connecting food donors, NGOs, and delivery partners to streamline the collection and redistribution of surplus food. Features role-based workflows and interactive dashboards for food donation posting, NGO coordination, and efficient pickup and delivery.",
+      "technologies": ["React.js", "JavaScript", "Python", "Firebase", "Database Technologies"],
+      "github": "https://github.com/gatharva264-eng",
+      "highlights": [
+        "Connected food donors, NGOs, and delivery partners to eliminate food waste.",
+        "Built responsive frontend with React.js & JavaScript and developed backend using Python.",
+        "Integrated Firebase and database for authentication and real-time data management.",
+        "Designed role-based workflows and dashboards to facilitate donation posting, NGO coordination, and efficient pickup."
+      ]
+    }
+  ],
+  "skills": {
+    "programming_languages": ["C", "C++", "Python", "Data Structures and Algorithms (DSA)"],
+    "web_technologies": ["HTML", "CSS", "JavaScript", "Frontend Basics", "React.js"],
+    "tools_and_platforms": ["React", "Git", "GitHub", "Netlify", "Render", "Firebase"],
+    "additional_skills": ["Video Editing", "Photography", "Visual Content Creation"],
+    "concepts": ["Problem Solving", "Responsive Design", "API Handling", "Database Technologies"]
+  },
+  "certifications": [
+    {
+      "name": "Certificate of Appreciation, CodeFuse 2025",
+      "issuer": "CodeFuse",
+      "year": "2025",
+      "description": "Qualified Round 1 among 600+ participants and participated in the Offline Grand Finale."
+    }
+  ],
+  "achievements": [
+    "Qualified Round 1 among 600+ participants in CodeFuse 2025 and participated in the Offline Grand Finale"
+  ],
+  "hobbies": [
+    "Photography",
+    "Video Editing",
+    "Visual Content Creation",
+    "Coding & Problem Solving"
+  ],
+  "social_links": {
+    "github": "https://github.com/gatharva264-eng",
+    "linkedin": "https://linkedin.com/in/atharvagupta-",
+    "email": "mailto:gatharva264@gmail.com",
+    "phone": "tel:+919453036904"
+  },
+  "contact": {
+    "email": "gatharva264@gmail.com",
+    "phone": "9453036904",
+    "github": "https://github.com/gatharva264-eng",
+    "linkedin": "https://linkedin.com/in/atharvagupta-",
+    "availability": "Available for internships, full-time opportunities, and collaborative software projects"
+  }
+}

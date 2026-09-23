@@ -1,0 +1,48 @@
+{
+  "profile_url": "https://linkedin.com/in/atharvagupta-",
+  "name": "Atharva Gupta",
+  "headline": "Aspiring Full-Stack Developer | B.Tech Computer Science @ Allenhouse Institute of Technology",
+  "about": "Aspiring Full-Stack Developer pursuing a Bachelor of Technology in Computer Science, with a strong interest in web development, problem-solving, and building practical software solutions. Skilled in React.js, JavaScript, Python, Firebase, and database technologies.",
+  "experience": [
+    {
+      "title": "Full-Stack Developer",
+      "company": "Independent Projects",
+      "start_date": "2024",
+      "end_date": "Present",
+      "description": "Building full-stack platforms including Surplus Food Recovery Network with React, Python, and Firebase."
+    }
+  ],
+  "education": [
+    {
+      "school": "Allenhouse Institute of Technology",
+      "degree": "Bachelor of Technology - BTech, Computer Science",
+      "start_year": "2025",
+      "end_year": "2028"
+    }
+  ],
+  "skills": [
+    "React.js",
+    "JavaScript",
+    "Python",
+    "C",
+    "C++",
+    "Data Structures & Algorithms (DSA)",
+    "Firebase",
+    "Git",
+    "GitHub",
+    "Netlify",
+    "Render",
+    "HTML & CSS",
+    "Video Editing",
+    "Photography"
+  ],
+  "certifications": [
+    "CodeFuse 2025 - Grand Finale Participant (Round 1 Qualifier among 600+)"
+  ],
+  "projects": [
+    "Surplus Food Recovery Network (React.js, JavaScript, Python, Firebase)"
+  ],
+  "achievements": [
+    "CodeFuse 2025 Offline Grand Finale Finalist"
+  ]
+}

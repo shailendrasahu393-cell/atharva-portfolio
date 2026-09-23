@@ -1,0 +1,45 @@
+services:
+  # ==========================================
+  # 1. Backend API (FastAPI + Groq AI)
+  # ==========================================
+  - type: web
+    name: atharva-portfolio-api
+    runtime: python
+    region: oregon
+    plan: free
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: GROQ_MODEL
+        value: qwen/qwen3.8-27b
+      - key: GROQ_API_KEY
+        sync: false
+
+  # ==========================================
+  # 2. Frontend (Vite + React Single Page App)
+  # ==========================================
+  - type: web
+    name: atharva-portfolio-frontend
+    runtime: static
+    region: oregon
+    plan: free
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    autoDeploy: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_BASE_URL
+        fromService:
+          type: web
+          name: atharva-portfolio-api
+          property: host
+        # The frontend will construct the URL or you can enter the live URL in Render
