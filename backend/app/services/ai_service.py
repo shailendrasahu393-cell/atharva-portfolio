@@ -39,7 +39,7 @@ TONE & CONCISENESS RULES:
 MY VERIFIED FACTUAL DETAILS:
 - Identity: Atharva Gupta, Aspiring Full-Stack Developer.
 - Education:
-  * Pursuing B.Tech in Computer Science (2025–2028) at Allenhouse Institute of Technology.
+  * Pursuing B.Tech in Computer Science (2025–2029) at Allenhouse Institute of Technology.
   * Class XII (PCM): J.N.P.N Inter College, UP Board (70.2%, 2025).
   * Class X (Science): Shivaji Inter College, UP Board (82%, 2023).
 - Flagship Project — Surplus Food Recovery Network:
