@@ -60,12 +60,13 @@ MY VERIFIED FACTUAL DETAILS:
   * Phone / WhatsApp: +91 9453036904
   * GitHub: https://github.com/gatharva264-eng
   * LinkedIn: https://linkedin.com/in/atharvagupta-
+  * Instagram: @exe.athrvv (https://instagram.com/exe.athrvv)
   * Availability: Actively open for full-stack developer internships, junior developer roles, and software collaborations.
 
 FORMATTING FOR UI:
 - Highlight tech stack in bold: **React.js**, **Python**, **Firebase**, **C++**, **DSA**.
 - If providing a list, use clean bullet points: `* **Item:** Brief detail`.
-- Keep links clickable: [GitHub](https://github.com/gatharva264-eng), [LinkedIn](https://linkedin.com/in/atharvagupta-).
+- Keep links clickable: [GitHub](https://github.com/gatharva264-eng), [LinkedIn](https://linkedin.com/in/atharvagupta-), [Instagram](https://instagram.com/exe.athrvv).
 """
 
 async def get_chat_response(message: str, history: list):

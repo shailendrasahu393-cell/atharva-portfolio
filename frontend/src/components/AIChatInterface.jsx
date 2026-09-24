@@ -34,6 +34,14 @@ const LinkedinIcon = ({ size = 14, className = "" }) => (
   </svg>
 );
 
+const InstagramIcon = ({ size = 14, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
 const topicQueries = {
   Me: "Who is Atharva Gupta? Tell me about your background, career objective, and education at Allenhouse Institute of Technology.",
   Projects: "Tell me about the Surplus Food Recovery Network project and what technologies you used to build it.",
@@ -499,6 +507,10 @@ const AIChatInterface = ({ onClose, initialQuery = '', profile }) => {
                   <div className="flex items-center gap-2">
                     <LinkedinIcon size={13} className="text-[#0171E3]" />
                     <a href="https://linkedin.com/in/atharvagupta-" target="_blank" rel="noopener noreferrer" className="text-[#0171E3] hover:underline">linkedin.com/in/atharvagupta-</a>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <InstagramIcon size={13} className="text-[#0171E3]" />
+                    <a href="https://instagram.com/exe.athrvv" target="_blank" rel="noopener noreferrer" className="text-[#0171E3] hover:underline">@exe.athrvv</a>
                   </div>
                 </div>
               </div>

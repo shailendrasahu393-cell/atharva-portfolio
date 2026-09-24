@@ -45,6 +45,7 @@ Instead of searching through dense text, visitors and recruiters can talk direct
   - 📞 **WhatsApp / Call** (`https://wa.me/919453036904`)
   - 🐙 **GitHub Repository** (`https://github.com/gatharva264-eng`)
   - 💼 **LinkedIn Profile** (`https://linkedin.com/in/atharvagupta-`)
+  - 📸 **Instagram Profile** (`https://instagram.com/exe.athrvv` / `@exe.athrvv`)
 - **Smart Follow-Up Chips**: Suggests clickable prompt pills based on conversation context so visitors can continue asking questions effortlessly.
 
 ### 3. 🌊 Apple-Inspired Aesthetics & WebGL Background
@@ -179,6 +180,7 @@ This repository includes a pre-configured `render.yaml` blueprint.
 - **Phone / WhatsApp**: [+91 9453036904](tel:+919453036904)
 - **GitHub**: [github.com/gatharva264-eng](https://github.com/gatharva264-eng)
 - **LinkedIn**: [linkedin.com/in/atharvagupta-](https://linkedin.com/in/atharvagupta-)
+- **Instagram**: [@exe.athrvv](https://instagram.com/exe.athrvv)
 
 ---
 

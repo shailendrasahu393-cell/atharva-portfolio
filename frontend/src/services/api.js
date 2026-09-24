@@ -104,20 +104,22 @@ const fallbackChatStream = async (message, onChunk) => {
         `* **Class X (Science):** Shivaji Inter College, UP Board (82%, 2023).\n\n` +
         `My academic focus is on core computer science foundations, algorithms, and practical full-stack software development.`;
     }
-  } else if (q.includes('contact') || q.includes('reach') || q.includes('email') || q.includes('phone') || q.includes('number') || q.includes('whatsapp') || q.includes('sampark') || q.includes('hire') || q.includes('internship')) {
+  } else if (q.includes('contact') || q.includes('reach') || q.includes('email') || q.includes('phone') || q.includes('number') || q.includes('whatsapp') || q.includes('sampark') || q.includes('hire') || q.includes('internship') || q.includes('instagram') || q.includes('insta') || q.includes('social') || q.includes('exe.athrvv')) {
     if (isHindi) {
       responseText = `Aap mujhe directly in channels ke through contact kar sakte hain:\n\n` +
         `* **Email:** [gatharva264@gmail.com](mailto:gatharva264@gmail.com)\n` +
         `* **Phone / WhatsApp:** [+91 9453036904](tel:+919453036904)\n` +
         `* **LinkedIn:** [linkedin.com/in/atharvagupta-](https://linkedin.com/in/atharvagupta-)\n` +
-        `* **GitHub:** [github.com/gatharva264-eng](https://github.com/gatharva264-eng)\n\n` +
+        `* **GitHub:** [github.com/gatharva264-eng](https://github.com/gatharva264-eng)\n` +
+        `* **Instagram:** [@exe.athrvv](https://instagram.com/exe.athrvv)\n\n` +
         `Main actively **full-stack developer internships**, junior developer roles, aur collaborative software projects ke liye available hoon!`;
     } else {
       responseText = `I would love to connect! You can reach me directly via:\n\n` +
         `* **Email:** [gatharva264@gmail.com](mailto:gatharva264@gmail.com)\n` +
         `* **Phone / WhatsApp:** [+91 9453036904](tel:+919453036904)\n` +
         `* **LinkedIn:** [https://linkedin.com/in/atharvagupta-](https://linkedin.com/in/atharvagupta-)\n` +
-        `* **GitHub:** [https://github.com/gatharva264-eng](https://github.com/gatharva264-eng)\n\n` +
+        `* **GitHub:** [https://github.com/gatharva264-eng](https://github.com/gatharva264-eng)\n` +
+        `* **Instagram:** [@exe.athrvv](https://instagram.com/exe.athrvv)\n\n` +
         `I am actively open for **full-stack internships**, junior developer roles, and exciting software collaborations!`;
     }
   } else if (q.includes('codefuse') || q.includes('achievement') || q.includes('award') || q.includes('hobby') || q.includes('creative') || q.includes('photo') || q.includes('video')) {

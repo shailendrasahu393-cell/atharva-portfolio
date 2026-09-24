@@ -26,6 +26,14 @@ const LinkedinIcon = ({ size = 13, className = "" }) => (
   </svg>
 );
 
+const InstagramIcon = ({ size = 13, className = "" }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}>
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+  </svg>
+);
+
 // Map of recognized technologies for interactive tech badges
 const techBadgeStyles = {
   'react.js': 'bg-sky-500/10 text-sky-600 dark:text-sky-300 border-sky-500/30',
@@ -105,6 +113,7 @@ const renderInlineContent = (text) => {
       const isTel = url.startsWith('tel:');
       const isGithub = url.includes('github.com');
       const isLinkedin = url.includes('linkedin.com');
+      const isInstagram = url.includes('instagram.com');
 
       return (
         <a
@@ -114,7 +123,7 @@ const renderInlineContent = (text) => {
           rel={isEmail || isTel ? undefined : "noopener noreferrer"}
           className="inline-flex items-center gap-1 font-medium text-[#0171E3] dark:text-blue-400 hover:underline cursor-pointer"
         >
-          {isEmail ? <Mail size={12} /> : isTel ? <Phone size={12} /> : isGithub ? <GithubIcon size={12} /> : isLinkedin ? <LinkedinIcon size={12} /> : null}
+          {isEmail ? <Mail size={12} /> : isTel ? <Phone size={12} /> : isGithub ? <GithubIcon size={12} /> : isLinkedin ? <LinkedinIcon size={12} /> : isInstagram ? <InstagramIcon size={12} /> : null}
           <span>{title}</span>
           {!isEmail && !isTel && <ExternalLink size={10} className="opacity-70" />}
         </a>
@@ -154,6 +163,7 @@ const renderInlineContent = (text) => {
     if (part.startsWith('http://') || part.startsWith('https://')) {
       const isGithub = part.includes('github.com');
       const isLinkedin = part.includes('linkedin.com');
+      const isInstagram = part.includes('instagram.com');
       return (
         <a
           key={i}
@@ -162,7 +172,7 @@ const renderInlineContent = (text) => {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 font-medium text-[#0171E3] dark:text-blue-400 hover:underline break-all"
         >
-          {isGithub ? <GithubIcon size={12} /> : isLinkedin ? <LinkedinIcon size={12} /> : <ExternalLink size={11} />}
+          {isGithub ? <GithubIcon size={12} /> : isLinkedin ? <LinkedinIcon size={12} /> : isInstagram ? <InstagramIcon size={12} /> : <ExternalLink size={11} />}
           <span>{part.replace(/^https?:\/\/(www\.)?/, '')}</span>
         </a>
       );
@@ -290,7 +300,17 @@ export const RichChatMessage = ({
       });
     }
 
-    return list.slice(0, 4);
+    if (c.includes('instagram') || c.includes('exe.athrvv') || c.includes('social') || c.includes('insta')) {
+      list.push({
+        type: 'instagram',
+        label: 'Instagram (@exe.athrvv)',
+        href: 'https://instagram.com/exe.athrvv',
+        icon: InstagramIcon,
+        className: 'border-pink-200 dark:border-pink-800/80 bg-pink-50/80 dark:bg-pink-950/40 text-pink-600 dark:text-pink-400 hover:bg-pink-100 dark:hover:bg-pink-900/50'
+      });
+    }
+
+    return list.slice(0, 5);
   }, [content]);
 
   // Parse structured blocks: headings, lists, paragraphs, code blocks

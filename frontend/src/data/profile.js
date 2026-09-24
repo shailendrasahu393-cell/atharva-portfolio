@@ -99,6 +99,7 @@ export const profile = {
   social_links: {
     github: "https://github.com/gatharva264-eng",
     linkedin: "https://linkedin.com/in/atharvagupta-",
+    instagram: "https://instagram.com/exe.athrvv",
     email: "mailto:gatharva264@gmail.com",
     phone: "tel:+919453036904"
   },
@@ -106,6 +107,10 @@ export const profile = {
   contact: {
     email: "gatharva264@gmail.com",
     phone: "9453036904",
+    github: "https://github.com/gatharva264-eng",
+    linkedin: "https://linkedin.com/in/atharvagupta-",
+    instagram: "https://instagram.com/exe.athrvv",
+    instagram_username: "@exe.athrvv",
     availability: "Available for full-time opportunities, internships, and collaborative software engineering projects.",
     location: "India / Remote"
   },
